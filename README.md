@@ -10,7 +10,7 @@ The objective is to predict a **dense depth map** from:
 
 We use a **UNet-style convolutional neural network** trained on a **small supervised subset of the KITTI Depth Completion dataset**.
 
-## 📁 Project Structure
+## Project Structure
 
 .
 ├── kitti.py # Download and prepare KITTI supervised dataset

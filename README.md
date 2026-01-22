@@ -13,13 +13,13 @@ We use a **UNet-style convolutional neural network** trained on a **small superv
 ## Project Structure
 
 .
-├── kitti.py # Download and prepare KITTI supervised dataset
-├── dataloader.py # PyTorch Dataset + DataLoader
-├── model.py # UNet architecture
-├── train.py # Training loop
-├── evaluate.py # Evaluation + visualization
-├── utils.py # Metrics and visualization helpers
-└── README.md
+├── kitti.py # Download and prepare KITTI supervised dataset 
+├── dataloader.py # PyTorch Dataset + DataLoader 
+├── model.py # UNet architecture 
+├── train.py # Training loop 
+├── evaluate.py # Evaluation + visualization 
+├── utils.py # Metrics and visualization helpers 
+└── README.md 
 
 
 

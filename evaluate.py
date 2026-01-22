@@ -19,7 +19,7 @@ def main():
     ap.add_argument("--num_workers", type=int, default=2)
     ap.add_argument("--height", type=int, default=352)
     ap.add_argument("--width", type=int, default=1216)
-    ap.add_argument("--out_dir", type=str, default="/home/yhajlaoui/selfsupervised3/calibrated-backprojection-network/runs/unet_kitti/vis")
+    ap.add_argument("--out_dir", type=str, default="runs/unet_kitti/vis")
     ap.add_argument("--max_save", type=int, default=30)
     args = ap.parse_args()
 
